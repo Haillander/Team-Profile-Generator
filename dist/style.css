@@ -1,0 +1,25 @@
+.navbar-brand {
+    font-size: 50px;
+  }
+  body {
+    background-color: rgb(8, 90, 128);
+  }
+
+  /*Team cards*/
+  main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  
+  .card {
+    box-shadow: 10px 5px 5px rgb(30, 30, 31);
+    margin: 50px;
+  }
+  
