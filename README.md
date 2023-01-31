@@ -21,6 +21,10 @@ Watch the video to learn more about How to use the this functionality on VS code
 
 [CLIQUE HERE AND WATCH THE VIDEO](https://drive.google.com/file/d/1ydtiaT2MUIH2dwRwK61h0MYlvoUBAzb-/view?usp=share_link)]
 
+ScreenShot f the Web Page
+
+![screenshot](./images/Screenshot%202023-01-31%20172553.gif)
+
 
 ## License
 
