@@ -1,3 +1,4 @@
+//Generate Manager card function 
 const generateManager = function (manager) {
     return `<div class="card text-white bg-dark" style="width: 18rem">
     <div class="card-header mt-3 mb-3">Manager: ${manager.name}</div>
@@ -9,6 +10,7 @@ const generateManager = function (manager) {
   </div>`;
   };
 
+  //Generate Engineer card function 
   const generateEngineer = function (engineer) {
     return `<div class="card text-white bg-dark" style="width: 18rem">
     <div class="card-header mt-3 mb-3">Engineer: ${engineer.name}</div>
@@ -20,6 +22,7 @@ const generateManager = function (manager) {
   </div>`;
   };
 
+//Generate Intern card function 
   const generateIntern = function (intern) {
     return `<div class="card text-white bg-dark" style="width: 18rem">
     <div class="card-header mt-3 mb-3">Intern: ${intern.name}</div>
@@ -31,6 +34,7 @@ const generateManager = function (manager) {
   </div>`;
   };
 
+//Loops array for/if
   generateHTML = (data) => {
     pageArray = [];
   
@@ -55,6 +59,7 @@ const generateManager = function (manager) {
     return generateTeam;
   };
 
+  //HTML function to Generate Team Cards 
   const generateTeamPage = function (employeeCards) {
     return `<!DOCTYPE html>
     <html lang="en">
