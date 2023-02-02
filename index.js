@@ -1,5 +1,5 @@
+// Require packages for input messages 
 const generateHTML = require("./src/GenerateHTML");
-
 const inquirer = require("inquirer");
 const fs = require("fs");
 const Manager = require("./lib/Manager");
@@ -7,6 +7,7 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/intern");
 const teamArray = [];
 
+// Prompt messages 
 const addManager = () => {
     return inquirer
       .prompt([
@@ -37,7 +38,7 @@ const addManager = () => {
       teamArray.push(manager);
     });
 };
-
+//Return inquirer prompt messages 
 const addEmployee = () => {
     return inquirer
       .prompt([
